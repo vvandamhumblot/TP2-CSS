@@ -1,13 +1,19 @@
 #bandeau {
+    width: 100%;
     background-color: lightblue;
-    margin-top: 200px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: -21px;
 }
 
 #contenu {
     background-color: orange; 
+    height: 800px;
 }
 
 #foot {
     background-color: greenyellow;
-    margin-bottom: 200px;
+    margin-bottom: 10px;
+    height: 100px;
+    margin-top: -22px;
 }
