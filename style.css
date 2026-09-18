@@ -13,17 +13,35 @@
     height: 800px;
     text-align: center;
 }
-#menu{
+#menu_haut{
         background-color: blueviolet;
         width: 15%;
-        height: 778px;
+        height: 389px;
         position: absolute;
         margin-top: -18px;
+        transform: translate(0%, 100%); 
     }
+
+#menu_bas{
+        background-color: rgb(126, 219, 184);
+        width: 15%;
+        height: 389px;
+        position: absolute;
+        margin-top: -18px;
+}
+#bloc-news{
+    background-color: crimson;
+    width: 250px;
+    height: 276px;
+    margin-top: -18px;
+    position: absolute;
+    transform: translate(653%, 0%);
+}
 #foot {
     background-color: greenyellow;
     margin-bottom: 10px;
     height: 100px;
     margin-top: -22px;
     text-align: center;
+    transform: translate(0%, 0%); 
 }
